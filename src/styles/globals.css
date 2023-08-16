@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Work+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-form {
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* .ant-menu-item {
+  width: 100% !important;
+  margin: auto !important;
+  border-radius: 0 !important;
+} */
+/* .ant-menu-item{
+  color: black ;
+} */
+.ant-table-column-sorter {
+  display: none !important;
+}
+
+/* #newOrders .ant-table-tbody tr {
+  background-color: #fc8383;
+  border-radius: 50px !important;
+  padding: 10px !important;
+  margin-top: 50px !important;
+} */
+.ant-table-thead tr th {
+  background-color: #fafbff !important;
+  border-right: none !important;
+}
+
+table {
+  background-color: #fafbff;
+}
+
+.ant-table-thead tr th::before {
+  background-color: transparent !important;
+}
+
+.ant-menu-item:not(:first-child) {
+  margin-top: 0.5rem !important;
+}
+
+.ant-menu-item.ant-menu-item-selected {
+  background-color: #f9af9c !important;
+  color: #ffffff !important;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-menu-light
+  .ant-menu-item-selected
+  a {
+  color: #ffffff !important;
+}
+
+.ant-layout-sider-trigger {
+  background-color: #f26a5a !important;
+}
+
+/* .ant-layout-sider,
+.ant-menu {
+  background-color: white !important;
+}
+
+.ant-layout-header {
+  background-color: white !important;
+} */
+
+.ant-layout-sider {
+  box-shadow: 4px 11px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+.sidebar {
+  overflow-y: auto;
+  max-height: 80vh !important;
+  /* padding-bottom: 1rem !important; */
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  background-color: #f26a5a !important;
+}
+.main-content::-webkit-scrollbar-track {
+  background: white !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar:hover::-webkit-scrollbar {
+  /* overflow: scroll; */
+  display: block;
+  width: 6px;
+}
+
+.ant-layout-sider-collapsed .user {
+  display: none !important;
+}
+
+.tableWrapper {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 2px 4px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background: #f26a5a !important;
+  font-family: "Poppins";
+}
+
+.tableWrapper .ant-table-thead tr th {
+  background-color: white !important;
+  border-right: none !important;
+}
+
+.tableWrapper table {
+  background-color: white;
+}
+
+.ant-popconfirm-buttons {
+  display: none !important;
+}
+
+.ant-dropdown-menu-item-active {
+  background: none !important;
+}
+
+.jdiNPu {
+  border: none;
+}
+
+.formItems {
+  width: 100%;
+}
+
+.formLables {
+  margin-left: 0px;
+}
+
+.react-calendar {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.react-calendar__month-view__days
+  > react-calendar__tile
+  > react-calendar__tile--active {
+  background: #f26a5a;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-picker-calendar
+  .ant-picker-calendar-header {
+  justify-content: center;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-picker-calendar-mini
+  .ant-picker-calendar-header {
+  padding-inline-end: 0px;
+  padding-inline-start: 1px;
+}
+.ant-checkbox-input {
+  border-color: #f26a5a !important;
+}
+
+@media (max-width: 420px) {
+  .formItems {
+    width: 90%;
+    margin-left: 4%;
+  }
+  .formLables {
+    margin-left: 4%;
+  }
+  .ant-checkbox-wrapper {
+    margin-left: 4px !important;
+  }
+}
+
+.react-calendar__tile--now {
+  background: #f26a5a !important;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.react-calendar {
+  border: none !important;
+  padding: 5px;
+}
+.abbr:where([title]) {
+  text-decoration: unset !important;
+  -webkit-text-decoration: unset !important;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-menu-light > .ant-menu {
+  background-color: rgb(242, 106, 90) !important;
+  color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-menu .ant-menu-item a::before {
+  color: white !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw).ant-menu-light .ant-menu-item a,
+:where(.css-dev-only-do-not-override-txh9fw).ant-menu-light
+  > .ant-menu
+  .ant-menu-item
+  a,
+:where(.css-dev-only-do-not-override-txh9fw).ant-menu-light
+  .ant-menu-item
+  a:hover,
+:where(.css-dev-only-do-not-override-txh9fw).ant-menu-light
+  > .ant-menu
+  .ant-menu-item
+  a:hover {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+:where(.css-dev-only-do-not-override-txh9fw) a {
+  text-align: center;
+}
+.textColor {
+  color: white !important;
+}
+
+.ant-drawer .ant-drawer-body {
+  padding: 0% !important;
+}
+
+.ant-drawer-content-wrapper {
+  box-shadow: none !important;
+  height: 400px !important;
+}
+
+.tableWrapper {
+  z-index: 0 !important;
+  position: relative !important;
+}
+element.style {
+  height: 80vh !important;
+}
+
+.navbarPosition {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .navbarPosition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.Border {
+  border-bottom: #fafbff solid 2px;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.canvas {
+  margin-right: 0% !important;
+}
+.react-calendar__tile--active {
+  background: #f26a5a !important;
+}
